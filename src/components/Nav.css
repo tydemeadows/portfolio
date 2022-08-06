@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-desktop {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  color: #202f44;
+}
+
+.nav-desktop__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: calc(var(--size)*0.08333 - var(--margin)*2*0.08333 - var(--gutter)*11*0.08333 + var(--gutter)*1);
+  padding-right: calc(var(--size)*0.08333 - var(--margin)*2*0.08333 - var(--gutter)*11*0.08333 + var(--gutter)*0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-desktop__main {
+  z-index: 2;
+  display: inline-flex;
+  position: relative;
+  justify-content: space-between;
+  transition: all .5s ease;
+}
+
+.nav-desktop__main__item {
+  margin:  0 2rem;
+  display: inline-block;
+  pointer-events: auto;
+}
+
+.nav-desktop__logo {
+    width: 106px;
+    z-index: 2;
+    pointer-events: auto;
+    transition: all .5s ease;
+}
+
+.nav-desktop__side {
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  width:  172px;
+  justify-content: space-between;
+  transition: all .5s ease;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.nav-desktop__side li .cta {
+    width: 120px;
+    height: 40px;
+}
+
+.nav-desktop__side li:first-child {
+    margin-right: 15px;
+}
+
+.nav-desktop__side li {
+    display: inline-block;
+    pointer-events: auto;
+}
+
+li {
+  list-style-type: none;
+}
+a, span {
+    font-family: NHaas;
+    font-size: 12px;
+    font-size: var(--span);
+    line-height: 1;
+    line-height: var(--span-line_height);
+    letter-spacing: 0;
+    letter-spacing: var(--span-letter_spacing);
+}
+.cta {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: #0045ff;
+    border-radius: 60px;
+}
+
+.cta_bg {
+  transform: translate(-50%, -50%) translate3d(0px, 0px, 0px) scale(0.0003, 0.000281);
+  opacity: 0;
+  background-color: rgb(14, 64, 192);
+}
+
+.cta_base_bg {
+  background-color: rgb(0, 69, 255);
+}
+
+.cta.blue span {
+    color: #fff;
+}
+
+.nav-desktop__side li a, .nav-desktop__side li span {
+    font-size: 25px!important;
+}
+
+.cta span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}

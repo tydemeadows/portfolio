@@ -1,0 +1,32 @@
+:root {
+    --columns: 12;
+    --margin: 0px;
+    --gutter: 2rem;
+    --max-width: 1440px;
+    --size: 100vw;
+    --context: 1440;
+    --h1: 54px;
+    --h2: 42px;
+    --h3: 34px;
+    --h4: 25px;
+    --h5: 20px;
+    --big-paragraph: 18px;
+    --paragraph: 16px;
+    --span: 12px;
+    --h1-line_height: 1.2;
+    --h2-line_height: 1.2;
+    --h3-line_height: 1;
+    --h4-line_height: 1;
+    --h5-line_height: 1;
+    --big-paragraph-line_height: 1.4;
+    --paragraph-line_height: 1;
+    --span-line_height: 1;
+    --h1-letter_spacing: normal;
+    --h2-letter_spacing: 0.2px;
+    --h3-letter_spacing: -0.02em;
+    --h4-letter_spacing: normal;
+    --h5-letter_spacing: 0.68px;
+    --big-paragraph-letter_spacing: 0.02em;
+    --paragraph-letter_spacing: normal;
+    --span-letter_spacing: 0;
+}
