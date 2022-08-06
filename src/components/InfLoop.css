@@ -1,11 +1,13 @@
 .v-text {
   overflow: hidden;
   width: 50%;
-  height: 50vw;
+  min-width: 775px;
+  min-height: 700px;
+  height: 500px;
   padding: 0px 0 0px;
   position: fixed;
   left: 35%;
-  top: 0;
+  top: -15%;
   font-size: 3.5rem;
   font-family: 'Montserrat', Arial;
   transform: rotate(-90deg);
@@ -122,5 +124,34 @@
   color: teal;
 }
 
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateX(0);
+    /*transform: translateX(0)*/
+  }
+  40% {
+    /*-webkit-transform: translateX(-30px);
+    -ms-transform:     translateX(-30px);*/
+    transform:         translateX(-30px)
+  }
+  60% {
+    /*-webkit-transform: translateX(-15px);
+    -ms-transform:     translateX(-15px);*/
+    transform:         translateX(-15px)
+  }
+}
+
+.s-text {  
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.s-text:hover {
+  cursor: pointer;
+  font-size: 6.2rem;
+  color: black;
+  transform: rotate(45deg);
+  animation-name: bounce;
+}
 
 

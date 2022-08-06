@@ -36,17 +36,17 @@ const ScrollTextObj = (props, data) => {
   return (
     <>
     <div className="v-text" style={style_prop}>
-      <span class="s-text">SQL</span>
-      <br/>
       <span class="s-text">CSS</span>
+      <br/>
+      <span class="s-text">SQL</span>
       <br/>
       <span class="s-text">HTML</span>
       <br/>
       <span class="s-text">NODEJS</span>
       <br/>
-      <span class="s-text">PYTHON</span>
-      <br/>
       <span class="s-text">WEB3.JS</span>
+      <br/>
+      <span class="s-text">PYTHON</span>
       <br/>
       <span class="s-text">REACTJS</span>
       <br/>

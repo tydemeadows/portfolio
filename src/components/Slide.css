@@ -67,15 +67,16 @@ h1 {
 }
 
 section {
-  min-width: 50vw;
+  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 4ch;
+  border-radius: 35px;
 }
 
 section:nth-child(even) {
-  background-color: teal;
+  background-color: #123238;
   color: white;
 }

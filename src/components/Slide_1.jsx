@@ -14,7 +14,11 @@ const Slide_1 = () => {
     <div id="slide-1" class="hero-new__slide">
       <div class='hero-new__slide__shadow'></div>
       <div id="copy-slide-1" class="hero-new__copy sticky-slide">
+        <div id='pro-id' className="pro-holder">
          <ProjectCard/>
+         <ProjectCard/>
+         <ProjectCard/>
+         </div>
       </div>
       <div id="graphic-slide-1" cladd="video hero-new__video-frame fadeout"></div>
       </div>

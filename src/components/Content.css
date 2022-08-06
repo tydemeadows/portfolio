@@ -14,7 +14,7 @@ div {
 
 #slide-1 {
   background-color: #eceefd;
-  background-color: #b9c5c9;
+  /*background-color: #b9c5c9;*/
 }
 
 #slide-2 {
@@ -90,4 +90,13 @@ div {
     transition: all .1s ease-in-out;
     z-index: 1;
     min-height: 700px;
+}
+
+.pro-holder {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
 }
