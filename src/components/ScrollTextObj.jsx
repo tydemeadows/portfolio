@@ -36,15 +36,24 @@ const ScrollTextObj = (props, data) => {
   return (
     <>
     <div className="v-text" style={style_prop}>
-      <h1 class="s-text">SQL</h1>
-      <h1 class="s-text">CSS</h1>
-      <h1 class="s-text">HTML</h1>
-      <h1 class="s-text">NODEJS</h1>
-      <h1 class="s-text">PYTHON</h1>
-      <h1 class="s-text">WEB3.JS</h1>
-      <h1 class="s-text">REACTJS</h1>
-      <h1 class="s-text">SOLIDITY</h1>
-      <h1 class="s-text">JAVASCRIPT</h1>
+      <span class="s-text">SQL</span>
+      <br/>
+      <span class="s-text">CSS</span>
+      <br/>
+      <span class="s-text">HTML</span>
+      <br/>
+      <span class="s-text">NODEJS</span>
+      <br/>
+      <span class="s-text">PYTHON</span>
+      <br/>
+      <span class="s-text">WEB3.JS</span>
+      <br/>
+      <span class="s-text">REACTJS</span>
+      <br/>
+      <span class="s-text">SOLIDITY</span>
+      <br/>
+      <span class="s-text">JAVASCRIPT</span>
+      <br/>
     </div>
     {/*<div id="s-1-vert-text" className="looper__text"
       style={{
