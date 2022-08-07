@@ -80,3 +80,96 @@ section:nth-child(even) {
   background-color: #123238;
   color: white;
 }
+.text-zone {
+  position: relative;
+  display: inline-block;
+  left: 2%;
+  width: 40%;
+  top: 5%;
+  height: 90%;
+  max-height: 600px;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background-color: #eceefd;
+  border-radius: 15px;
+}
+.skills-details {
+  position: relative;
+  display: inline-block;
+  left: 5%;
+  width: 35%;
+  top: 12.5%;
+  height: 90%;
+  max-height: 600px;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background-color: #eceefd;
+  border-radius: 15px;
+}
+
+.skills-text {
+  padding: 0;
+  margin-top: 0;
+  font-size: 15px;
+  color: #123238;
+  text-align: justify;
+}
+.sk-card {
+  height: 60px;
+  width: 98%;
+  border-radius: 0;
+  background-color: inherit;
+}
+.sk-body {
+  height: 30px;
+  font-size: 10px;
+}
+.sk-chart-bg{
+    width:100%;
+    height:3px;
+    background-color:lightslategray;
+    float:left;
+}
+.sk-chart{
+    height:3px;
+    
+    float:left;
+}
+#sk-ln-1 {
+  width: 85%;
+  background-color:#08fdd8;
+}
+#sk-ln-2 {
+  width: 75%;
+  background-color:#d26cd5;
+}
+#sk-ln-3 {
+  width: 95%;
+  background-color: #30ff22;
+}
+#sk-ln-4 {
+  width: 75%;
+  background-color:#08fdd8;
+}
+#sk-ln-5 {
+  width: 85%;
+  background-color:#d26cd5;
+}
+#sk-ln-6 {
+  width: 60%;
+  background-color: #30ff22;
+}
+#sk-ln-7 {
+  width: 60%;
+  background-color:#08fdd8;
+}
+#sk-ln-8 {
+  width: 80%;
+  background-color:#d26cd5;
+}
+#sk-ln-9 {
+  width: 85%;
+  background-color: #30ff22;
+}

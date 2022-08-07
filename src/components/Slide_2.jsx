@@ -1,5 +1,6 @@
 import React, {useRef, useEffect} from 'react'
-
+import Skills from "./Skills";
+import ExpText from "./ExpText";
 const Slide_2 = () => {
   const style_prop = {
     display: "block",
@@ -40,7 +41,8 @@ const Slide_2 = () => {
       <div class='hero-new__slide__shadow'></div>
          <div class="scrolling-wrapper" ref={scrollevt}>
             <section>
-              <h1>NASA</h1>
+              <ExpText/>
+              <Skills/>
             </section>
             <section>
               <h1>MDA</h1>
