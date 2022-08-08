@@ -18,10 +18,24 @@ const Slide_2 = () => {
     const sel = document.querySelector('.scrolling-wrapper')
     console.log(sel)
     // const handleScroll = event => {
-    // console.log('window.scrollY', window.scrollY)};
+    //   console.log('window.scrollY', window.scrollY)
+    // };
     se.addEventListener("wheel", (evt) => {
-        evt.preventDefault();
+      console.log(se)
+      console.log(evt.deltaY);
+      evt.preventDefault();
+      if (evt.deltaY < 0 && se.scrollLeft === 0){
+        console.log('in y')
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+        // se.scrollY += evt.deltaY;
+      }
+      else{
+        console.log('in left')
         se.scrollLeft += evt.deltaY;
+      }
     });
     // se.addEventListener('scroll', handleScroll);
     // return () => {

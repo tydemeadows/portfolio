@@ -11,7 +11,7 @@
 }
 
 #s-0-h {
-  margin-bottom: 10vh;
+  margin-bottom: 0;
 }
 
 #s-0-vert-text {
@@ -75,7 +75,9 @@ section {
   font-size: 4ch;
   border-radius: 35px;
 }
-
+p{
+  text-align: justify;
+}
 section:nth-child(even) {
   background-color: #123238;
   color: white;
@@ -83,11 +85,14 @@ section:nth-child(even) {
 .text-zone {
   position: relative;
   display: inline-block;
-  left: 2%;
+  left: 0;
   width: 40%;
-  top: 5%;
+  top: 0;
+  margin-top: -5%;
+  margin-left: -5%;
   height: 90%;
   max-height: 600px;
+  font-size: 0.75em;
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 5%;
@@ -97,9 +102,7 @@ section:nth-child(even) {
 .skills-details {
   position: relative;
   display: inline-block;
-  left: 5%;
   width: 35%;
-  top: 12.5%;
   height: 90%;
   max-height: 600px;
   padding-left: 1%;

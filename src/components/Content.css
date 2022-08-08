@@ -86,7 +86,7 @@ div {
 .hero-new__slide {
     display: block;
     position: relative;
-    height: 120vh;
+    height: 100vh;
     transition: all .1s ease-in-out;
     z-index: 1;
     min-height: 700px;
