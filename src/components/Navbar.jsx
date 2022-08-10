@@ -25,7 +25,7 @@ const Navbar = () => {
             <ul className="nav-desktop__side">
               <li>
                 <a class="cta blue">
-                <span>Demo</span>
+                <span>Contact</span>
                  <div class="cta_bg" ></div>
                  <div class="cta_base_bg"></div>
                 </a>

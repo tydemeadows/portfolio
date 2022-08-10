@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react'
+import React, {useRef, useEffect, useState} from 'react'
 import { gsap } from 'gsap';
 import { TextPlugin } from "gsap/TextPlugin.js";
 import './Slide.css';
@@ -7,6 +7,7 @@ import ScrollTextObj2 from "./ScrollTextObj2";
 import InfLoopText from "./InfLoopText";
 
 gsap.registerPlugin(TextPlugin);
+
 const Slide_0 = () => {
   const style_prop = {
     display: "block",
@@ -16,19 +17,25 @@ const Slide_0 = () => {
     fontSize: "5.0rem",
     backgroundColor: "none"
   }
-
+  const [pageLoc, setPageLoc] = useState(0)
   const textRef1 = useRef();
   const textRef2 = useRef();
   const textRef3 = useRef();
 
   useEffect( () => {
+    writeText()
     // const handleScroll = event => {
-    // console.log('window.scrollY', window.scrollY)};
+    //   console.log('window.scrollY', window.scrollY)
+      // if (window.deltaY < 0){
+      //   console.log('going up')
+      // }
+    // };
+    
     // window.addEventListener('scroll', handleScroll);
     // return () => {
     //   window.removeEventListener('scroll', handleScroll);
     // };
-    writeText()
+    
   },[])
 
   const writeText = async() => {
