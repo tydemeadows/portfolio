@@ -10,12 +10,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 gsap.registerPlugin(ScrollTrigger);
 
 const Content = () => {
+
   gsap.utils.toArray(".panel").forEach((panel, i) => {
     ScrollTrigger.create({
       trigger: panel,
       start: "top top", 
       pin: true, 
-      pinSpacing: false 
+      pinSpacing: false
     });
   });
 

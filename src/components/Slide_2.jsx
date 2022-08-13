@@ -14,7 +14,11 @@ const Slide_2 = () => {
       trigger: ".container",
       pin: true,
       scrub: 1,
-      snap: 1 / (sections.length - 1),
+      snap:{
+        snapTo: 1 / (sections.length - 1),
+        inertia: false,
+        duration: {min: 0.1, max: 0.1}
+      },
       // base vertical scrolling on how wide the container is so it feels more natural.
       end: "+=3500",
     }
