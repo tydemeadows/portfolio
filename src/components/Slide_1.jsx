@@ -19,24 +19,6 @@ const Slide_1 = () => {
     console.log(element);
     const windowSize = getWindowSize();
     console.log(windowSize);
-    // const handleScroll = event => {
-    // console.log('window.scrollY', window.scrollY)};
-    // window.addEventListener('scroll', handleScroll);
-    // return () => {
-    //   window.removeEventListener('scroll', handleScroll);
-    // };
-    // console.log(se);
-    // se.addEventListener("wheel", (evt) => {
-    //   console.log(evt.deltaY);
-    //   evt.preventDefault();
-    //   if (evt.deltaY < 0 ){
-    //     console.log('in y')
-    //     window.scrollTo({
-    //         top: 0,
-    //         behavior: "smooth",
-    //     });
-    //   }
-    // });
   },[])
 
   const getWindowSize = () => {
@@ -47,16 +29,12 @@ const Slide_1 = () => {
   }
 
   return (
-    <div id="slide-1" class="hero-new__slide">
-      <div class='hero-new__slide__shadow'></div>
-      <div id="copy-slide-1" class="hero-new__copy sticky-slide">
-        <div id='pro-id' className="pro-holder">
-         <ProjectCard/>
-         <ProjectCard/>
-         <ProjectCard/>
-         </div>
-      </div>
-      <div id="graphic-slide-1" cladd="video hero-new__video-frame fadeout"></div>
+    <div id="slide-1" class="slideobj">
+      <div id='pro-id' className="pro-holder">
+       <ProjectCard/>
+       <ProjectCard/>
+       <ProjectCard/>
+       </div>
       </div>
   )
 }

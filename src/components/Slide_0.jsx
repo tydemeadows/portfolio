@@ -24,18 +24,6 @@ const Slide_0 = () => {
 
   useEffect( () => {
     writeText()
-    // const handleScroll = event => {
-    //   console.log('window.scrollY', window.scrollY)
-      // if (window.deltaY < 0){
-      //   console.log('going up')
-      // }
-    // };
-    
-    // window.addEventListener('scroll', handleScroll);
-    // return () => {
-    //   window.removeEventListener('scroll', handleScroll);
-    // };
-    
   },[])
 
   const writeText = async() => {
@@ -44,25 +32,23 @@ const Slide_0 = () => {
     await gsap.to(textRef3.current, {duration: .75, text:{value: "INSPIRE"}, ease: "none"});
   }
 
+  
   return (
-    <div url="page1" id="slide-0" class="hero-new__slide">
-      <div class='hero-new__slide__shadow'></div>
-      <div id="copy-slide-0" class="hero-new__copy sticky-slide">
-         <h1 id="s-0-h">
-            <div class="parent-line" style={style_prop}>
-              <div id="dtag" class="line" style={style_prop} ref={textRef1}></div>
+    <div url="page1" id="slide-0" class="slideobj">
+      <h1 id="s-0-h">
+        <div class="parent-line" style={style_prop}>
+          <div id="dtag" class="line" style={style_prop} ref={textRef1}></div>
+          </div>
+        <div class="parent-line" style={style_prop}>
+          <div id="ctag" class="line" style={style_prop} ref={textRef2}></div>
+          </div>
+          <div class="parent-line" style={style_prop}>
+            <div id="itag" class="line" style={style_prop} ref={textRef3}></div>
             </div>
-            <div class="parent-line" style={style_prop}>
-              <div id="ctag" class="line" style={style_prop} ref={textRef2}></div>
-            </div>
-            <div class="parent-line" style={style_prop}>
-              <div id="itag" class="line" style={style_prop} ref={textRef3}></div>
-              </div>
-          </h1>
-        </div>
+        </h1>
         <ScrollTextObj/>
-      <div id="graphic-slide-0" class="video hero-new__video-frame fadeout"></div>
-      </div>
+        <div class="scroll-down">Scroll down<div class="arrow"></div></div>
+    </div>
   )
 }
 
