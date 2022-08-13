@@ -61,7 +61,7 @@ const Slide_2 = () => {
         console.log('first two pages')
         if (dir > 0){
           const s1value = ws.innerHeight*1 - ws.innerHeight*0.75
-          const s2value = ws.innerHeight*2 - ws.innerHeight*0.75
+          const s2value = ws.innerHeight*2 - ws.innerHeight*0.9
           if (window.scrollY > 0 && window.scrollY < ws.innerWidth*.6){
             if (window.scrollY > (s1value)){
               window.scrollTo({top: ws.innerHeight*1})
@@ -81,7 +81,7 @@ const Slide_2 = () => {
           if (window.scrollY <= ws.innerHeight*0.75){
             window.scrollTo({
               top: 0,
-              behavior: "auto",
+              behavior: "smooth",
           });
           }
         }
