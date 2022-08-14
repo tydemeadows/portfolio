@@ -10,10 +10,12 @@
 }*/
 
 .horz_scroll {
+  overscroll-behavior: none;
+  width: 500%;
+  height: 100%;
   overflow-x: none;
   display: flex;
   flex-wrap: nowrap;
-  overscroll-behavior: none;
 }
 
 .horz_panel {

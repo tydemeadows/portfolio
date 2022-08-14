@@ -13,53 +13,23 @@ const Slide_2 = () => {
     panels.current[index] = panel;
   };
 
-  // useEffect(() => {
-  //   const totalPanels = panels.current.length;
+  useEffect(() => {
+    let sections = gsap.utils.toArray(".horz_panel");
 
-  //   gsap.to(panels.current, {
-  //     xPercent: -100 * (totalPanels - 1),
-  //     ease: "none",
-  //     scrollTrigger: {
-  //       trigger: panelsContainer.current,
-  //       pin: true,
-  //       scrub: 1,
-  //       snap: 1 / (totalPanels - 1),
-  //       // base vertical scrolling on how wide the container is so it feels more natural.
-  //       end: () => "+=" + panelsContainer.current.offsetWidth
-  //     }
-  //   });
-  // }, []);
-  // let maxWidth = 0;
+    gsap.to(sections, {
+      xPercent: -100 * (sections.length - 1),
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".horz_scroll",
+        pin: true,
+        scrub: 1,
+        snap: 1 / (sections.length - 1),
+        // base vertical scrolling on how wide the container is so it feels more natural.
+        end: "+=3500",
+      }
+    });
+  }, []);
 
-  // const getMaxWidth = () => {
-  //   maxWidth = 0;
-  //   sections.forEach((section) => {
-  //     maxWidth += section.offsetWidth;
-  //   });
-  // };
-  // getMaxWidth();
-  // let sections = gsap.utils.toArray(".horz_panel");
-
-  // gsap.to(sections, {
-  //   xPercent: -100 * (sections.length - 1),
-  //   ease: "none",
-  //   scrollTrigger: {
-  //     trigger: ".container",
-  //     pin: true,
-  //     scrub: 1,
-  //     snap:{
-  //       snapTo: 1 / (sections.length - 1),
-  //       inertia: false,
-  //       duration: {min: 0.1, max: 0.1}
-  //     },
-  //     // base vertical scrolling on how wide the container is so it feels more natural.
-  //     end: "+=3500",
-  //   }
-  // });
-
-  // ScrollTrigger.create({
-  //   snap: 1/2// snap whole page to the closest section!
-  // });
   return (
     <div href="page2" id="slide-2" className="slideobj container" ref={panelsContainer}>
       <div className="horz_scroll" >
