@@ -11,7 +11,6 @@ const ScrollTextObj = (props, data) => {
   }
 
   useEffect(() => {
-    console.log('useEffect loop')
     loop()
     // let opv = "0.0"
     // for (let i = 0; i < 8; i++) {
@@ -28,7 +27,6 @@ const ScrollTextObj = (props, data) => {
     for (let i = 0; i < 8; i++) {
       setOpacity(opv)
       opv = (parseFloat(opv) + 0.02).toPrecision(2).toString()
-      console.log(opv)
       await wait(300)
     }
   }

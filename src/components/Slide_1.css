@@ -1,0 +1,13 @@
+#slide-1 {
+  background-color: lightgreen;
+  /*background-color: #b9c5c9;*/
+}
+
+.pro-holder {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+}

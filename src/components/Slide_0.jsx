@@ -1,7 +1,7 @@
 import React, {useRef, useEffect, useState} from 'react'
 import { gsap } from 'gsap';
 import { TextPlugin } from "gsap/TextPlugin.js";
-import './Slide.css';
+import './Slide_0.css';
 import ScrollTextObj from "./ScrollTextObj";
 import ScrollTextObj2 from "./ScrollTextObj2";
 import InfLoopText from "./InfLoopText";

@@ -5,13 +5,13 @@ const ScrollTextObj2 = () => {
 
   const [posData, setPosData] = useState([]);
 
-  useEffect(() => {
-    console.log('useEffect loop')
-    const interval = setInterval(() => {
-      console.log('This will run every second!');
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [])
+  // useEffect(() => {
+  //   console.log('useEffect loop')
+  //   const interval = setInterval(() => {
+  //     console.log('This will run every second!');
+  //   }, 1000);
+  //   return () => clearInterval(interval);
+  // }, [])
 
   const s2 = 8;
   const direction = "reverse";

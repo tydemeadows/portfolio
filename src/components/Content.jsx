@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
 import './Content.css';
 import './root.css'; 
 import Slide_0 from "./Slide_0";
@@ -11,28 +11,48 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Content = () => {
 
-  gsap.utils.toArray(".panel").forEach((panel, i) => {
-    ScrollTrigger.create({
-      trigger: panel,
-      start: "top top", 
-      pin: true, 
-      pinSpacing: false
-    });
-  });
+  useEffect(() =>{
+    let panels = gsap.utils.toArray(".panel"),
+    scrollTween;
 
-  ScrollTrigger.create({
-    snap: 1/2// snap whole page to the closest section!
-  });
+    function goToSection(i) {
+      scrollTween = gsap.to(window, {
+        scrollTo: {y: i * window.innerHeight, autoKill: false},
+        duration: 0.75,
+        onComplete: () => scrollTween = null,
+        overwrite: true
+      });
+    }
+
+    panels.forEach((panel, i) => {
+      ScrollTrigger.create({
+        trigger: panel,
+        start: "top bottom",
+        end: "+=200%",
+        onToggle: self => self.isActive && !scrollTween && goToSection(i)
+      });
+    });
+
+    // just in case the user forces the scroll to an inbetween spot (like a momentum scroll on a Mac that ends AFTER the scrollTo tween finishes):
+    ScrollTrigger.create({
+      start: 0, 
+      end: "max",
+      snap: 1 / (panels.length - 1)
+    })
+  })
+  
   return (
-    <div  className="page home-page">
+    <>
+    <section className="panel" >
       <Slide_0/>
-      <section class="panel">
-        <Slide_1/>
-      </section>
-      <section class="panel">
-        <Slide_2/>
-      </section>
-    </div>
+    </section>
+    <section className="panel" >
+      <Slide_1/>
+    </section>
+    <section className="panel" >
+      <Slide_2/>
+    </section>
+    </>
   )
 }
 
