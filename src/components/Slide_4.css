@@ -1,0 +1,33 @@
+#slide-4 {
+  background-color: whitesmoke;
+}
+
+.pro-holder {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+}
+
+.exp-card {
+  width: 40%;
+  height: 70%;
+}
+
+.job-card {
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+}

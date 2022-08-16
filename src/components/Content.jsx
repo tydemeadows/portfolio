@@ -4,6 +4,9 @@ import './root.css';
 import Slide_0 from "./Slide_0";
 import Slide_1 from "./Slide_1";
 import Slide_2 from "./Slide_2";
+import Slide_3 from "./Slide_3";
+import Slide_4 from "./Slide_4";
+import Slide_5 from "./Slide_5";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 
@@ -51,6 +54,12 @@ const Content = () => {
     </section>
     <section className="panel" >
       <Slide_2/>
+    </section>
+    <section className="panel" >
+      <Slide_3/>
+    </section>
+    <section className="panel" >
+      <Slide_4/>
     </section>
     </>
   )

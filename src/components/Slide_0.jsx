@@ -47,7 +47,6 @@ const Slide_0 = () => {
             </div>
         </h1>
         <ScrollTextObj/>
-        <div class="scroll-down">Scroll down<div class="arrow"></div></div>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 #slide-0 {
   position: relative;
-  background-color: #eceefd;
+  background-color: whitesmoke;
 }
 
 #dtag {
@@ -16,8 +16,13 @@
 }
 
 #s-0-h {
+  position: fixed;
+  top: 50%;
+  left: 5%;
   margin-bottom: 0;
+  background-color: whitesmoke;
 }
+
 
 #s-0-vert-text {
   position: relative;

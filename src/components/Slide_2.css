@@ -1,26 +1,31 @@
 #slide-2 {
-  background-color: #eceefd;
+  background-color: whitesmoke;
 }
 
-/*.container {
+.container {
   width: 600%;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
-}*/
+}
 
-.horz_scroll {
-  overscroll-behavior: none;
+/*.horz_scroll {
   width: 500%;
   height: 100%;
-  overflow-x: none;
+  overflow-x: hidden;
   display: flex;
   flex-wrap: nowrap;
+}*/
+
+section {
+  width: 100vw;
+  height: 100vh;
 }
 
 .horz_panel {
-  min-width: 100vw;
-  min-height: 100vh;
+  position: inherit;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +55,7 @@ p{
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 5%;
-  background-color: #eceefd;
+  background-color: whitesmoke;
   border-radius: 15px;
 }
 .skills-details {
@@ -62,7 +67,7 @@ p{
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 5%;
-  background-color: #eceefd;
+  background-color: whitesmoke;
   border-radius: 15px;
 }
 

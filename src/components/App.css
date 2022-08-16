@@ -70,13 +70,13 @@ h1 {
   font-size: 1em;
   padding:  10px 10px 10px 10px;
   margin: 15px;
-  background-color: #123238;
+  background-color: black;
   color: white;
 }
 
 .card-header {
   padding: 0px 4px;
-  background-color: #123238;
+  background-color: black;
   border-color: #000000;
   border-width: 2px;
   border-left-color: #000000;
