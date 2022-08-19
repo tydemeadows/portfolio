@@ -83,7 +83,7 @@ a, span {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    background: #0045ff;
+    background: whitesmoke;
     border-radius: 60px;
 }
 
@@ -98,7 +98,7 @@ a, span {
 }
 
 .cta.blue span {
-    color: #fff;
+    color: #000;
 }
 
 .nav-desktop__side li a, .nav-desktop__side li span {

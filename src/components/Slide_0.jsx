@@ -4,6 +4,7 @@ import { TextPlugin } from "gsap/TextPlugin.js";
 import './Slide_0.css';
 import ScrollTextObj from "./ScrollTextObj";
 import ScrollTextObj2 from "./ScrollTextObj2";
+import ObjBgCard from "./ObjBgCard";
 import InfLoopText from "./InfLoopText";
 
 gsap.registerPlugin(TextPlugin);

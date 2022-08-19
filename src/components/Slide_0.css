@@ -1,18 +1,21 @@
 #slide-0 {
   position: relative;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 #dtag {
   padding-left: 20px;
+  color: whitesmoke;
 }
 
 #ctag {
   padding-left: 40px;
+  color: whitesmoke;
 }
 
 #itag {
   padding-left: 60px;
+  color: whitesmoke;
 }
 
 #s-0-h {
@@ -20,7 +23,7 @@
   top: 50%;
   left: 5%;
   margin-bottom: 0;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 
@@ -37,6 +40,7 @@
   background-color: none;
   opacity: 0.75;
   filter: blur(5px);
+  color: whitesmoke;
 
 }
 #s-1-vert-text {
@@ -57,4 +61,11 @@
   height: 100vw;
   min-height: 400px;
   /*background-color: #dedede;*/
+}
+
+#splash_vid_0{
+  position: absolute;
+  width: 45vw;
+  height: 100vh;
+  left:  40%;
 }

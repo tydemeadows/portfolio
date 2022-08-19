@@ -1,6 +1,7 @@
 import './Slide_4.css';
 import React, { Component } from 'react'
 import {Card, Button, Form} from 'react-bootstrap';
+
 const FaroCard = () => {
   return (
     <>
@@ -30,3 +31,4 @@ const FaroCard = () => {
 
 
 export default FaroCard
+
