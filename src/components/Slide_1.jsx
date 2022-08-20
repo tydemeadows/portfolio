@@ -9,7 +9,7 @@ const Slide_1 = () => {
       <div id="s1_bg_img">
         <ImgCard/>
       </div>
-      <div id='pro-id' className="pro-holder">
+      <div id='pro-id' className="pro-holder-1">
        <ProjectCard/>
        <ProjectCard/>
        <ProjectCard/>

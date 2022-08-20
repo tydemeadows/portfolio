@@ -4,8 +4,10 @@ import { TextPlugin } from "gsap/TextPlugin.js";
 import './Slide_0.css';
 import ScrollTextObj from "./ScrollTextObj";
 import ScrollTextObj2 from "./ScrollTextObj2";
-import ObjBgCard from "./ObjBgCard";
+import StlBgCard from "./StlBgCard";
+import ImgCard_S0 from "./ImgCard_S0";
 import InfLoopText from "./InfLoopText";
+
 
 gsap.registerPlugin(TextPlugin);
 
@@ -32,7 +34,6 @@ const Slide_0 = () => {
     await gsap.to(textRef2.current, {duration: .75, text:{value: "CREATE"}, ease: "none"});
     await gsap.to(textRef3.current, {duration: .75, text:{value: "INSPIRE"}, ease: "none"});
   }
-
   
   return (
     <div url="page1" id="slide-0" class="slideobj">
@@ -48,6 +49,7 @@ const Slide_0 = () => {
             </div>
         </h1>
         <ScrollTextObj/>
+        <ImgCard_S0/>
     </div>
   )
 }

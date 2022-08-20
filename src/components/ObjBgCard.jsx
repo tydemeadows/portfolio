@@ -5,7 +5,8 @@ import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 const ObjBgCard = () => {
-  let objpath = require("./SPLASH.obj")
+  // let objpath = require("./SPLASH.obj")
+  let objpath = require("./Splash-water-3d-Cgian-artistB.obj");
   console.log(objpath);
   const style_prop = {
     display: "block",

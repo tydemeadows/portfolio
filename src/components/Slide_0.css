@@ -69,3 +69,20 @@
   height: 100vh;
   left:  40%;
 }
+
+#bg_stl_0 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 8;
+}
+
+#s0_bg_img {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  z-index: 2;
+  top: 0vh;
+  left: 50vw;
+  transform: rotate(180deg);
+}
