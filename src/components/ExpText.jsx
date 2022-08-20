@@ -8,9 +8,9 @@ const ExpText = () => {
             <header>
                 <h2>Skills &amp; Experience</h2>
                 </header>
-                <p>Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.</p>
-                <p>I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.</p>
-                <p>Visit my <a href="https://www.linkedin.com/in/jacek-jeznach-0a99b640">LinkedIn </a>profile for more details or just <a href="https://jacekjeznach.com/contact">contact </a>me.</p>
+                <p>My path to becoming a fullstack developer started many years ago as a young engineer working at NASA.  There is where I first fully realized the power or developing custom software in my efforts to analyze and process mass amount of instrumentation data. Since then I became passionate about software and began learning various skills to complement data analytics and visualization.</p>
+                <p>More recent in my journey (last 5 years); I have been near full time as a fullstack developer at K Sciences in projects ranging from full Python desktop applications to full on IoT web packages to operate, store, analyze, and visualize custom instrumention.  This is specifically where I became even more focused on building clean fullstack applications to be intuiavtive while also being visually pleasing.</p>
+                <p>Using all of my past experience, over the last 2 years I have focused on developling a skillset to create Web3.0 applications. I have built small projects, completed a bootcamp and from scratch created a  full on live Web3.0 project. With utilization of blockchain technology and specifically smart contracts, I plan to create tools that will inspire people to seek out and chase dreams while at same time lessing the concern of failure or fear.</p>
 
         </div>
         </>

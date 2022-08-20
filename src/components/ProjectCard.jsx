@@ -3,7 +3,7 @@ import {Card, Button, Form} from 'react-bootstrap';
 const ProjectCard = () => {
   return (
     <>
-    <div className="card bg-black text-white">
+    <div id="pci" className="card bg-black text-white pro_card">
       <div className="card-header">
         <h1>Project #1</h1>
       </div>
