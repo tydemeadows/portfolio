@@ -1,5 +1,5 @@
 #slide-4 {
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .pro-holder {
@@ -8,13 +8,20 @@
   margin-bottom: auto;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100%;
+  z-index: 10;
+}
+
+.card {
+  z-index: 10;
 }
 
 .exp-card {
   width: 40%;
-  height: 70%;
+  height: 80%;
+  font-size: .8em;
+  opacity: 0.8;
 }
 
 .job-card {
@@ -41,3 +48,41 @@ h2 {
   background-color: none;
 }
 
+#inlay {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  left: 0vw;
+  top: 15vh;
+  background-color: whitesmoke;
+}
+
+#job_img_1 {
+  z-index: 2;
+  position: absolute;
+  top: 15%;
+  left: -10%;
+  transform: rotate(-45deg);
+}
+#job_img_1:hover {
+  z-index: 12;
+}
+#faro_bg_img {
+  
+  transform: scale(0.7);
+}
+
+.pastbg:hover{
+  z-index: 15;
+}
+
+#job_img_2 {
+  z-index: 2;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: scale(0.7);
+}
+#job_img_2:hover {
+  z-index: 12;
+}
