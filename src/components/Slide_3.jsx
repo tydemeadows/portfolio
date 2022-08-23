@@ -1,6 +1,7 @@
 import './Slide_3.css';
 import React, {useRef, useEffect, useState} from 'react'
 import ProjectCard from "./ProjectCard";
+import KsciCard from "./KsciCard";
 import ksci_img from "./ksci_clean.png";
 
 const Slide_3 = () => {
@@ -13,7 +14,7 @@ const Slide_3 = () => {
         </div>
       <div id='pro_id_3' className="pro_holder_3">
        <ProjectCard/>
-       <ProjectCard/>
+       <KsciCard/>
        <ProjectCard/>
        </div>
       </div>

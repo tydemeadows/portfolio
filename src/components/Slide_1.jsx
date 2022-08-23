@@ -1,6 +1,8 @@
 import './Slide_1.css';
 import React, {useRef, useEffect, useState} from 'react'
 import ProjectCard from "./ProjectCard";
+import HiveCard from "./HiveCard";
+import DappCard from "./DappCard";
 import ImgCard from "./ImgCard";
 
 const Slide_1 = () => {
@@ -16,12 +18,14 @@ const Slide_1 = () => {
         document.getElementById('s1_bg_img').style.zIndex = 1
         document.getElementById('pro-id').style.top="32vh"
         document.getElementById('pci').style.boxShadow="-5px 10px 20px 5px black"
+        document.getElementById('dci').style.boxShadow="-5px 10px 20px 5px black"
         // document.getElementsByClassName('pro_card').style.boxShadow="-5px 12px 25px 3px black"
       }
       else {
         document.getElementById('s1_bg_img').style.zIndex = 8
         document.getElementById('pro-id').style.top="30vh"
         document.getElementById('pci').style.boxShadow="0px 0px 0px 0px black"
+        document.getElementById('dci').style.boxShadow="0px 0px 0px 0px black"
       }
       setX(e.x)
       setY(e.y)
@@ -40,9 +44,8 @@ const Slide_1 = () => {
         <ImgCard/>
       </div>
       <div id='pro-id' className="pro-holder-1">
-       <ProjectCard/>
-       <ProjectCard/>
-       <ProjectCard/>
+       <HiveCard/>
+       <DappCard/>
        </div>
       </div>
   )
