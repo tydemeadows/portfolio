@@ -40,6 +40,9 @@ const Slide_1 = () => {
 
   return (
     <div id="slide-1" className="slideobj">
+      <div id='w3'>
+        <h1>WEB 3.0 Apps</h1>
+      </div>
       <div id="s1_bg_img">
         <ImgCard/>
       </div>
