@@ -1,4 +1,4 @@
-import './Slide_4.css';
+import './Slide_0.css';
 import React from 'react'
 import bg from "./image-from-rawpixel-id-2381294-original.png"
 

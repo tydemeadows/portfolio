@@ -1,7 +1,8 @@
 #slide-0 {
-  position: relative;
+  position: fixed;
   background-color: black;
 }
+
 
 #dtag {
   padding-left: 20px;
@@ -77,12 +78,43 @@
   z-index: 8;
 }
 
+
+
 #s0_bg_img {
-  position: absolute;
+  position: relative;
   width: 50vw;
   height: 50vw;
   z-index: 2;
   top: 0vh;
   left: 50vw;
   transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 850px) {
+  .v-text{
+    display: none;
+  }
+
+  #s-0-h {
+    position: absolute;
+    top: 30%;
+    margin-bottom: 0;
+    background-color: black;
+  }
+
+  .slideobj {
+    align-content: center;
+    justify-content: center;
+  }
+  #dtag {
+    padding-left: 0px;
+  }
+
+  #ctag {
+    padding-left: 0px;
+  }
+
+  #itag {
+    padding-left: 0px;
+  }
 }

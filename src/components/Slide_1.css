@@ -1,5 +1,12 @@
 #slide-1 {
   background-color: whitesmoke;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.s1obj {
+  background-color: whitesmoke;
 }
 
 .pro-holder-1 {
@@ -10,7 +17,7 @@
   width: 80vw;
   height: 40vh;
   left:  10vw;
-  top: 30vh;
+  top: 25vh;
   z-index: 5;
 }
 
@@ -32,7 +39,7 @@
 #hive_bg_img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 #dapp_img_1 {
@@ -42,7 +49,7 @@
 #dapp_bg_img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 0px;
 
 }
 
@@ -50,4 +57,35 @@
   font-size: 2.5em;
   top: 10%;
   position: relative;
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 850px) {
+  #s1_bg_img {
+    position: absolute;
+    left: 0vw;
+    width: auto;
+    height: 100vh;
+    z-index: 2;
+  }
+  .pro-holder-1 {
+    display: inline-grid;
+    position: sticky;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 80%;
+    height: 90%;
+    top: 5vh;
+    z-index: 15;
+  }
+
+  .h_card {
+    width: 300px;
+  }
+
+  #w3{
+    font-size: .75em;
+    top: 8%;
+    position: relative;
+  }
 }

@@ -52,7 +52,7 @@ h4 {
 
 #ksci_fs {
   width: 40vw;
-  height: 60vw;
+  height: 60vh;
   left: 55vw;
   top: 30vh;
   position: absolute;
@@ -61,7 +61,7 @@ h4 {
 
 #k_python {
   width: 40vw;
-  height: 40vw;
+  height: 40vh;
   left: 2vw;
   top: 50vh;
   position: absolute;
@@ -73,4 +73,44 @@ h4 {
   font-size: 1.2em;
   font-weight: bold;
   font-family: monospace;
+}
+
+@media only screen and (max-width: 850px) {
+  #job_img_3 {
+    display: none;
+  }
+
+  #k_header {
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    font-size: 1.5em;
+    font-family: monospace;
+    font-weight: bold;
+    color: slategrey;
+    width: 90vw;
+  }
+
+  #ksci_fs {
+    width: 90vw;
+    height: 90vh;
+    left: 5vw;
+    top: 20vh;
+    position: absolute;
+    font-family: monospace;
+  }
+
+  #k_python {
+    width: 90vw;
+    height: 60vh;
+    left: 5vw;
+    top: 110vh;
+    position: absolute;
+    font-family: monospace;
+  }
+
+  #bg{
+    width: auto;
+    height: 120vh;
+  }
 }

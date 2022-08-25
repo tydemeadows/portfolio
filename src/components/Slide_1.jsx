@@ -39,7 +39,7 @@ const Slide_1 = () => {
   },[setX, setY]);
 
   return (
-    <div id="slide-1" className="slideobj">
+    <div id="slide-1" className="s1obj">
       <div id='w3'>
         <h1>WEB 3.0 Apps</h1>
       </div>
@@ -50,9 +50,12 @@ const Slide_1 = () => {
        <HiveCard/>
        <DappCard/>
        </div>
-      </div>
+    </div>
   )
 }
 
 
 export default Slide_1
+
+
+    // <div id="slide-1" className="slideobj">

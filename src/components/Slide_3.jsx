@@ -19,9 +19,9 @@ const Slide_3 = () => {
       <div id='k_header'>
         <h2>Software Developer / Project Manager</h2>
         </div>
-      <KsciCard/>
-      <ProjectCard/>
-      </div>
+    <KsciCard/>
+    <ProjectCard/>
+    </div>
   )
 }
 

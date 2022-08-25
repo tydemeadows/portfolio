@@ -11,7 +11,7 @@ class App extends Component {
       <div id="__nuxt">
         <div id="__layout">
           <div className="theme-dark">
-            <Navbar />
+           {/* <Navbar />*/}
             <div class="preloader disabled"></div>
             <div>
               <Router>

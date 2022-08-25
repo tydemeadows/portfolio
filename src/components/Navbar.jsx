@@ -8,7 +8,7 @@ const Navbar = () => {
             <a className="nav-desktop__logo" >
                 LOGO
             </a>
-            <ul className="nav-desktop__main">
+            {/*<ul className="nav-desktop__main">
               <li className="nav-desktop__main__item">
                    <a className="nav-desktop__main__item__trigger" ><span>About</span>
                     </a>
@@ -21,7 +21,7 @@ const Navbar = () => {
                  <a className="nav-desktop__main__item__trigger" ><span>Experience</span>
                   </a>
                </li>
-            </ul>
+            </ul>*/}
             <ul className="nav-desktop__side">
               <li>
                 <a class="cta blue">
