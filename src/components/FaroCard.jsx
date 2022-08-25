@@ -6,22 +6,18 @@ const FaroCard = () => {
   return (
     <>
     <div className="card bg-black text-white exp-card">
-      <div className="card-header">
+      <div className="card-header ch4">
         <h1>FARO</h1>
         <h1>Account Manager</h1>
       </div>
-      <div className="card-body">
-        <div className="icard">
-          <div className="card-body">
-            <h1>Skills:</h1>
-            <h4>Business to Business Sales</h4>
-            <h4>Communicating Customer Needs</h4>
-            <h4>Metrology</h4>
-            <h4>Time Management</h4>
-            <h4>Self Discipline</h4>
-            <h4>Intentional Tasking</h4>
-          </div>
-        </div>
+      <div className="card-body cb4">
+        <h1>Skills:</h1>
+        <h4>Business to Business Sales</h4>
+        <h4>Communicating Customer Needs</h4>
+        <h4>Metrology</h4>
+        <h4>Time Management</h4>
+        <h4>Self Discipline</h4>
+        <h4>Intentional Tasking</h4>
       </div>
     </div>  
   </>    

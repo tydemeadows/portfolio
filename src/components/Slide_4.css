@@ -87,3 +87,45 @@ h2 {
   z-index: 12;
 }
 
+@media only screen and (max-width: 850px) {
+  #slide-4 {
+    height: 150vh;
+  }
+
+  #inlay {
+    height: 130vh;
+  }
+
+  .pro-holder {
+    display: inline-grid;
+    justify-content: none;
+    align-content: none;
+  }
+
+  .exp-card {
+    width: 80vw;
+    height: 60vh;
+    font-size: .9em;
+    font-family: monospace;
+    opacity: 1.0;
+    background-color: black;
+    color: whitesmoke;
+/*    justify-content: end;*/
+  }
+
+  .ch4 {
+    height: 20%;
+  }
+
+  #job_img_1 {
+    display: none;
+  }
+  #job_img_2 {
+    display: none;
+  }
+
+  .card-header {
+    background-color: whitesmoke;
+    color: black;
+  }
+}

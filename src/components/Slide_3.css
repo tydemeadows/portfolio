@@ -38,9 +38,6 @@
   color: black;
 }
 
-#ksci_bg_img{
-}
-
 #kh {
   color: black;
   background-color: whitesmoke;
@@ -76,7 +73,15 @@ h4 {
 }
 
 @media only screen and (max-width: 850px) {
-  #job_img_3 {
+  #slide-3 {
+    height: 120vh;
+  }
+
+  #ksci_bg_img {
+    display: none;
+  } 
+
+  #bg_3_img {
     display: none;
   }
 
@@ -93,7 +98,7 @@ h4 {
 
   #ksci_fs {
     width: 90vw;
-    height: 90vh;
+    height: 50vh;
     left: 5vw;
     top: 20vh;
     position: absolute;
@@ -102,9 +107,9 @@ h4 {
 
   #k_python {
     width: 90vw;
-    height: 60vh;
+    height: 40vh;
     left: 5vw;
-    top: 110vh;
+    top: 80vh;
     position: absolute;
     font-family: monospace;
   }

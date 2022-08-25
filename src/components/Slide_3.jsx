@@ -9,7 +9,7 @@ const Slide_3 = () => {
   return (
     <div id="slide-3" className="slideobj">
       <div id="bg3">
-        <img src={s3_bg_img} id="3_bg_img"  />
+        <img src={s3_bg_img} id="bg_3_img"  />
       </div>
       <div id='job_img_3'>
         <a href="http://www.k-sciences.com/" target="_blank">
