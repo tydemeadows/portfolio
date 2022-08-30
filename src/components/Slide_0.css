@@ -1,8 +1,22 @@
 #slide-0 {
   position: fixed;
   background-color: black;
+  width: 100vw;
+  height: 100vh;
 }
 
+
+#logo {
+  transform: scale(0.8);
+}
+
+#txt_holder {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  top: 20vh;
+  background-color: none;
+}
 
 #dtag {
   padding-left: 20px;
@@ -20,11 +34,13 @@
 }
 
 #s-0-h {
-  position: fixed;
-  top: 50%;
+  position: relative;
+  top: 38%;
   left: 5%;
+  height: 50%;
+  width: 30%;
   margin-bottom: 0;
-  background-color: black;
+  background-color: none;
 }
 
 
@@ -81,7 +97,7 @@
 
 
 #s0_bg_img {
-  position: relative;
+  position: absolute;
   width: 50vw;
   height: 50vw;
   z-index: 2;

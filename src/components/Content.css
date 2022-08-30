@@ -7,10 +7,10 @@ html, body { height: auto; }
   overflow-y: hidden;
 }
 
-.slideobj {
+/*.slideobj {
   height: 100vh;
   width: 100vw;
-}
+}*/
 
 /*.page{
   position: relative;

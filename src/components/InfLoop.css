@@ -5,9 +5,10 @@
   min-height: 700px;
   height: 500px;
   padding: 0px 0 0px;
-  position: fixed;
+  position: relative;
+  background-color: none;
   left: 35%;
-  top: -12%;
+  top: -85%;
   font-size: 2.5rem;
   font-family: 'Montserrat', Arial;
   transform: rotate(-90deg);

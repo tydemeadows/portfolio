@@ -7,6 +7,8 @@ import ScrollTextObj2 from "./ScrollTextObj2";
 import StlBgCard from "./StlBgCard";
 import ImgCard_S0 from "./ImgCard_S0";
 import InfLoopText from "./InfLoopText";
+import logopng from "./T-logo.png"
+
 
 
 gsap.registerPlugin(TextPlugin);
@@ -37,6 +39,8 @@ const Slide_0 = () => {
   
   return (
     <div url="page1" id="slide-0" class="slideobj">
+      <img src={logopng} id="logo"/>
+      <div id='txt_holder'>
       <h1 id="s-0-h">
         <div class="parent-line" style={style_prop}>
           <div id="dtag" class="line" style={style_prop} ref={textRef1}></div>
@@ -48,8 +52,9 @@ const Slide_0 = () => {
             <div id="itag" class="line" style={style_prop} ref={textRef3}></div>
             </div>
         </h1>
-        <ScrollTextObj/>
-        <ImgCard_S0/>
+      <ScrollTextObj/>
+      </div>
+      <ImgCard_S0/>
     </div>
   )
 }
