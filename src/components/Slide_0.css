@@ -111,6 +111,10 @@
     display: none;
   }
 
+  .panel {
+    height: 200vh;
+  }
+
   #s-0-h {
     position: absolute;
     top: 30%;
@@ -132,5 +136,9 @@
 
   #itag {
     padding-left: 0px;
+  }
+
+  #logo {
+    width:  100vw;
   }
 }

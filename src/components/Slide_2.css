@@ -134,9 +134,9 @@ p{
 }
 
 @media only screen and (max-width: 850px) {
-  .panel {
+  /*.panel {
     overflow-y: scroll;
-  }
+  }*/
   .horz_panel {
     height: 200vh;
   }
@@ -163,7 +163,7 @@ p{
     display: inline-block;
     width: 90%;
     height: 90%;
-    top: 110%;
+    top: 50%;
     left: 0;
     margin-left: 5%;
     padding-left: 1%;

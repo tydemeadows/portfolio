@@ -74,11 +74,15 @@ h4 {
 
 @media only screen and (max-width: 850px) {
   #slide-3 {
-    height: 120vh;
+    height: 160vh;
   }
 
   #ksci_bg_img {
-    display: none;
+    display: block;
+    position: absolute;
+    width: 80vw;
+    left:  10vw;
+    top: 0;
   } 
 
   #bg_3_img {
@@ -88,7 +92,7 @@ h4 {
   #k_header {
     position: absolute;
     left: 5vw;
-    top: 10vh;
+    top: 30vh;
     font-size: 1.5em;
     font-family: monospace;
     font-weight: bold;
@@ -98,9 +102,9 @@ h4 {
 
   #ksci_fs {
     width: 90vw;
-    height: 50vh;
+    height: 40vh;
     left: 5vw;
-    top: 20vh;
+    top: 40vh;
     position: absolute;
     font-family: monospace;
   }
@@ -109,7 +113,7 @@ h4 {
     width: 90vw;
     height: 40vh;
     left: 5vw;
-    top: 80vh;
+    top: 95vh;
     position: absolute;
     font-family: monospace;
   }
