@@ -1,5 +1,5 @@
 #slide-2 {
-  background-color: black;
+  background-color: #1d1d1d;
 }
 
 .container {
@@ -51,7 +51,7 @@ p{
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 5%;
-  background-color: black;
+  background-color: #1d1d1d;
   color: whitesmoke;
   border-radius: 15px;
 }
@@ -64,7 +64,7 @@ p{
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 5%;
-  background-color: black;
+  background-color: #1d1d1d;
   border-radius: 15px;
 }
 
@@ -102,11 +102,11 @@ p{
 }
 #sk-ln-2 {
   width: 75%;
-  background-color:#d26cd5;
+  background-color:#ff22fd;
 }
 #sk-ln-3 {
   width: 95%;
-  background-color: #30ff22;
+  background-color: #09fd00;
 }
 #sk-ln-4 {
   width: 75%;
@@ -114,11 +114,11 @@ p{
 }
 #sk-ln-5 {
   width: 85%;
-  background-color:#d26cd5;
+  background-color:#ff22fd;
 }
 #sk-ln-6 {
   width: 60%;
-  background-color: #30ff22;
+  background-color: #09fd00;
 }
 #sk-ln-7 {
   width: 60%;
@@ -126,11 +126,11 @@ p{
 }
 #sk-ln-8 {
   width: 80%;
-  background-color:#d26cd5;
+  background-color:#ff22fd;
 }
 #sk-ln-9 {
   width: 85%;
-  background-color: #30ff22;
+  background-color: #09fd00;
 }
 
 @media only screen and (max-width: 850px) {
@@ -169,7 +169,7 @@ p{
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 5%;
-    background-color: black;
+    background-color: #1d1d1d;
     border-radius: 15px;
   }
 }

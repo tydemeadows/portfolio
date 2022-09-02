@@ -1,6 +1,6 @@
 #slide-0 {
   position: fixed;
-  background-color: black;
+  background-color: #1d1d1d;
   width: 100vw;
   height: 100vh;
 }
@@ -112,14 +112,14 @@
   }
 
   .panel {
-    height: 200vh;
+    height: 250vh;
   }
 
   #s-0-h {
     position: absolute;
     top: 30%;
     margin-bottom: 0;
-    background-color: black;
+    background-color: #1d1d1d;
   }
 
   .slideobj {
