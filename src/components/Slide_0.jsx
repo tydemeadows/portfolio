@@ -54,10 +54,13 @@ const Slide_0 = () => {
         </h1>
       <ScrollTextObj/>
       </div>
-      <ImgCard_S0/>
+      
     </div>
   )
 }
 
 
 export default Slide_0
+
+
+// <ImgCard_S0/>
